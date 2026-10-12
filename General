@@ -1,0 +1,10 @@
+color = input("Введіть колір світлофора: ")
+
+if color == "червоний":
+    print("Стій")
+elif color == "жовтий":
+    print("Чекай")
+elif color == "зелений":
+    print("Переходь")
+else:
+    print("Невідомий колір")
